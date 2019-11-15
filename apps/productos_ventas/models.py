@@ -7,7 +7,7 @@ class productos_ventas(models.Model):
 
 
     cantidad = models.IntegerField()
-    venta_id = models.AutoField(Foreing_key=True)
-    producto_id = models.AutoField(Foreing_key=True)
+    venta_id = models.AutoField(foreign_key=True)
+    producto_id = models.AutoField(foreign_key=True)
 
 
